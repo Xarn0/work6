@@ -54,7 +54,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="main__right"><?php include "indexForm.html"?></div>
+		<div class="main__right"><?php include "Form.html"?></div>
 	</main>
 	</section>
 	
