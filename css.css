@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "TT Norms";
+    src: url(./font/TTNorms-Regular.ttf);
+    font-weight: 600;
+}
+@font-face{
+    font-family: "TT Norms bold";
+    src: url(./font/TTNorms-Bold.ttf);
+    font-weight: 900;
+}
+@font-face{
+    font-family: "rubiklignt";
+    src: url(./font/Rubik-Regular.ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Rubik";
+    src: url(./font/ofont.ru_Rubik.ttf);
+    src: url(./font/ofont.ru_Rubik300.ttf);
+    font-weight: 700;
+    font-weight: 300;
+}
+@font-face{
+    font-family: "Rubik-Regular";
+    src: url(./font/Rubik-Regular.ttf);
+    font-weight: 700;
+    font-weight: 300;
+} 
+@font-face{
+    font-family: "Rubikmed";
+    src: url(./font/Rubik-Medium.ttf);
+    font-weight: 900;
+    
+}
+
+.section__font{
+    height: 665px;
+    background-image: url(img/fontheader.png);
+    background-position: -148px -1px;
+    background-repeat: no-repeat;
+    margin-bottom: 329px;
+    width: 100%;
+    
+}
+header{
+    width: 1170px;
+    height: 105px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between
+}
+header>img{
+    position: relative;
+    top: -7px;
+}
+.header__list{
+    display: flex;
+    width: 955px;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.header__list_one{
+    font-family: "TT Norms";
+    color: #979ca3;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 16.5px;
+}
+.header__list_two{
+width: 340px;
+margin-top: 24px;
+margin-right: 15px;
+}
+.header__list_two>img{
+    float: left;
+}
+.header__list_two>img>div{
+  float: both;
+}
+
+.header__list_two_h3{
+    font-family: "TT Norms";
+    font-weight: 600;
+    font-size: 18px;
+    color: #979ca3;
+    margin-top: 6px;
+    text-decoration: underline;
+    margin-left: 63px;
+
+}
+.header__list_two_p{
+    font-family: "TT Norms";
+    font-weight: 600;
+    font-size: 12px;
+    color: #979ca3;
+    margin-top: -3px;
+    margin-left: 64px;
+}
+.header__list_two_p>span{
+    color: #e03039;
+}
+.header__list_two_three{
+    font-size: 14px;
+    font-family: "TT Norms";
+    font-weight: 600;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 14px;
+    margin-right: 1px;
+    width: 200px;
+    line-height: 22.7px;
+    letter-spacing: 0.49px;
+}
+.header__list_two_three_two{
+    font-family: "TT Norms bold";
+    font-weight: 900;
+    font-size: 20px;
+    
+    
+}
+.header__list_two_three_one::after{
+    content: url(img/dot.png);
+    margin-left: 8px;   
+
+}
+.header__list_two_three_two::before{
+    content: url(img/phone.png);
+    position: relative;
+    right: 8px;
+}
+.red_masseng{
+    width: 546px;
+    background: linear-gradient(0deg , #f5484e , #d01d28);
+    position: relative;
+    top: 299px;
+    left: 263px;
+    letter-spacing: 0.4px;
+    border-radius: 5px;
+    height: 37px;
+    text-align: center;
+    color: #fff;
+    font-family: "rubiklignt";
+    font-size: 19px;
+    padding-top: 11px;
+}
+.red_masseng span{
+    font-family: "Rubik";
+    font-weight: 100;
+} 
+main{
+    width: 1169px;
+    height: 430px;
+    position: relative;
+    margin: 0 auto;
+    background:#fff;
+    top: 361px;
+    border-radius: 6px;
+}
+.main__left{
+    width: 450px;
+    position: relative;
+}
+.main__left_one , .main__left_two , .main__left_three{
+    display: flex;
+    justify-content: space-around;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 5px;
+    height: 120px;
+}
+.main__left_one{
+    padding-top: 24px;
+}
+.aligning_headers{
+    padding-top: 24px;
+}
+.main__left_one_img{
+    background-image: url(img/test.png);
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 120px;
+}
+.main__left_one_right{
+    line-height: 24px;
+    letter-spacing: 1px;
+    
+}
+.main__left_one_right>h5{
+  font-weight: 300;
+  line-height: 25px;  
+}
+.main__left_one_right>p{
+    
+    line-height: 25px;  
+  }
+.main__left_two_right{
+    width: 288px;
+    margin-left: 8px;
+    margin-top: 1px;
+}
+.main__left_two_right>p{
+    font-size: 17px;
+    font-family: "rubiklignt";
+    font-weight: 100;
+    letter-spacing: -0.2px;
+}
+.main__left_three_right{
+    width: 375px;
+    position: relative;
+    left: 3px;
+    top: 27px;
+}
+.fontParag{
+    font-family: "Rubik-Regular";
+    font-size: 17px;
+    color:#3e3e3e ;
+    letter-spacing: 0.1px;
+    word-spacing: 0px;
+}
+.fontGlav{
+    font-family: "Rubikmed";
+    color: #000000;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 0.1px;
+}
+.main__left_two_img{
+    background-image: url(img/human.png);
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 120px;
+    margin-top: 12px;
+    margin-left: 35px;
+}
+.main__left_three{
+    position: absolute;
+}
+.main__left_three_img{
+    background-image: url(img/img.png);
+    background-repeat: no-repeat;
+    width: 114px;
+    height: 120px;
+    margin-top: 27px;
+    margin-left: 42px;
+}
+.main__right{
+    position: relative;
+    width: 600px;
+    bottom: 500px;
+    left: 577px;
+}
+footer
+{
+    height: 50px;
+    background:#444444;
+    position: relative;
+    overflow: hidden;
+ 
+   
+}
+.footer__logo{
+    background: url(img/header.png);
+    background-repeat: no-repeat;
+    width: 210px;height: 60px;
+    background-position: 0px -33px;
+}
+.footer__list{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer__text{
+    color: #757575;
+    font-size: 15px;
+    font-family: "rubiklignt";
+    font-weight: 100;
+    padding-top: 20px;
+}
+.footer__number{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Rubikmed";
+    padding-top: 10px;
+}
+.footer__about{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #979797;
+    font-family: "rubiklignt";
+}
+
+#tetxfoo{
+    padding-top: 4px;
+}
+
+
+
+.windows{
+    width: 100%;
+    height: 1050px;
+    display: none;
+    position: absolute;
+    z-index: 8;
+    opacity: 0.8;
+    background-color: #000;
+} 
