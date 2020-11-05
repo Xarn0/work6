@@ -6,6 +6,7 @@ btns.addEventListener('click', function(e){
     document.querySelector('.backward').style.display = 'none';
     document.querySelector('.wrapcontent').style.overflow = "visible";
     document.querySelector('.windows').style.display = 'block';
+   
     ;
    });
    let win = document.querySelector('.windows').addEventListener('click',()=>{
@@ -19,8 +20,9 @@ i = 0,
 number = 5,
 progress = 0,
 progressscale = 0 ,
-div = document.querySelector(".wrap").children;
-
+div = document.querySelector(".wrap").children,
+list = document.querySelector(".modalG__right_one_list_h5"),
+listh5 = list.children;
 let arrayobject = [];
 function divcolor (n){
     
@@ -43,6 +45,12 @@ let bottom = document.querySelector(".active").addEventListener("click",()=>{
    for(let item of Array.from(mainchildren) ){
        item.style.display = 'none';
    }
+   for(let item of Array.from(listh5) ){
+      item.style.display = 'none';
+  }
+  list.append(listh5[0]);
+  listh5[0].style.display = 'block';
+
    main.append(mainchildren[0]);
    mainchildren[0].style.display = "block";
    arrayobject.push(i++);
@@ -71,6 +79,12 @@ backward.addEventListener("click",()=>{
         item.style.display = 'none';
         
     }
+    for(let item of Array.from(listh5) ){
+      item.style.display = 'none';
+  }
+  list.prepend(listh5[listh5.length-1]);
+  listh5[0].style.display = 'block';
+
     main.prepend(mainchildren[div.length-1]);
     mainchildren[0].style.display = "block";
     arrayobject.pop(--i);

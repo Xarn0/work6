@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 @font-face{
     font-family: "TT Norms";
@@ -281,7 +282,7 @@ footer
     font-size: 15px;
     font-family: "rubiklignt";
     font-weight: 100;
-    padding-top: 20px;
+    padding-top: 11px;
 }
 .footer__number{
     color: #fff;

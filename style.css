@@ -276,6 +276,7 @@ input[type="checkbox"]{
                                 text-align: center;
 }
 
+
 .modalG{
                                 position: relative;
                                 width: 1170px;
@@ -284,7 +285,7 @@ input[type="checkbox"]{
                                 z-index: 30;
                                 height:751px;
                                 opacity: 1;
-                                /* border: 2px solid #943; */
+                               
                                 display: flex;
                                 border-radius: 7px;
                                 top: -6px;
@@ -395,14 +396,21 @@ input[type="checkbox"]{
                                 font-family: "Rubik";
                                 font-weight: 500;
 }
-.modalG__right_one>h5  {
-                                font-family: "Rubik";
-                                font-weight: 700;
-                                font-size: 24px;
-                                letter-spacing: -0.2px;
-                                margin: 57px 0 20px 42px;
-}
+                                                                                            .modalG__right_one_list_h5>h5  {
+                                                                                                                            font-family: "Rubik";
+                                                                                                                            font-weight: 700;
+                                                                                                                            
+                                                                                                                            font-size: 24px;
+                                                                                                                            letter-spacing: -0.2px;
+                                                                                                                            margin: 57px 0 39px 42px;
+                                                                                            }
+                                                                                            .display{
+                                                                                                display: none;
+                                                                                            }
+                                                                                            .display:first-child{
+                                                                                                display: block;
 
+                                                                                            }
 #modalG__right_one_div_h6{
                                 font-size: 16px;
                                 font-family: "Rubik";
@@ -443,7 +451,7 @@ input[type="checkbox"]{
                                 margin-left: 30px;
                                 text-align: center;
                                 font-size: 15.6px;
-                                margin-top: 100px;
+                                margin-top: 18px;
                                 font-family: "Rubik";
                                 font-weight: 500;
                                 padding-top: 40px;
@@ -636,8 +644,8 @@ input[name="budget"]:checked + .modal3__box_p::before {
                                 position: absolute;
                                 z-index: -1;
                                 /* left: 0; */
-                                right: 273px;
-                                bottom: -10px;
+                                right: 277px;
+                                bottom: 24px;
                             }
 
 .clock{
@@ -645,6 +653,7 @@ input[name="budget"]:checked + .modal3__box_p::before {
                                 background-repeat: no-repeat;
                                 bottom: 6px;
                                 right: 204px;
+                                height: 329px;
 }
 input[name="clock "]{
     display: none;
@@ -652,6 +661,7 @@ input[name="clock "]{
 input[name="clock "]:checked + .modal3__box_p::before {
     content: '';
     background: radial-gradient(circle at center , #e3343c 6% , rgb(255, 255, 255) 35%);
+    transition: 1s;
 
 }
 .fifth_survey{
@@ -758,5 +768,4 @@ color: #f7c44c;
     border-bottom: 20px solid  #1e1d22f6;
     border-left: 20px solid transparent;
     
-   
   }
