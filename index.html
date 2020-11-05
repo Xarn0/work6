@@ -1,233 +1,293 @@
 <!DOCTYPE html>
-<html lang="ru" >
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width= 1200, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href = "fonts/roboto/stylesheet.css" rel = "stylesheet" type = "text/css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1200, initial-scale=1.0">
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
 </head>
 <body>
-    <div class="wrapcontent">
+<a  href="index2.php" class='windows'></a>
+	<section class="section__font">
+	<header>
+		<img src="img/header.png" alt="log">
+		<div class="header__list">
+			<div class="header__list_one"><p>Продажа, установка и обслуживание<br>
+				каминов в Санкт-Петербурге  и обл.</p>
+			</div>
+			<div class="header__list_two">
+				<img src="img/percent.png" alt="%" ><div></div>
+				<h3 class="header__list_two_h3" >Пройдите опрос</h3>
+				<p class="header__list_two_p">и получите <span>20% скидку</span>  на монтаж оборудования</p></div>
+			<div class="header__list_two_three" >
+				<p class="header__list_two_three_one">Сейчас мы работаем</p>
+				<P class="header__list_two_three_two">+7 (911) 221-71-91</P>
+				<span>Ежедневно с 8:00 до 20:00</span>
+			</div>
+		</div>
+	</header>
+	
+		<div class="red_masseng"><p>Оплата после<span> монтажа и тестирования оборудования</span></p></div>
+	
+	
+	<main>
+		<div class="main__left">
+			<div class="main__left_one">
+				<div class="main__left_one_img"></div>
+				<div class="main__left_one_right" >
+						<h5 class="fontGlav aligning_headers">Изучаем характеристики</h5>
+						<p class="fontParag">помещения и подбираем для вас <br>оптимальный вариант</p>
+				</div>
+			</div>
+			<div class="main__left_two">
+				<div class="main__left_two_img"></div>
+				<div class="main__left_two_right">
+						<h5 class="fontGlav aligning_headers">Консультируем, доставляем,</h5>
+						<p class="fontParag">устанавливаем, запускаем — вы<br> экономите от 30% на подрядчиках </p>
+				</div>
+			</div>
+			<div class="main__left_three">
+				<div class="main__left_three_img"></div>
+				<div class="main__left_three_right">
+						<p class="fontParag  " ><span class="fontGlav">Выбираем для вас из более 300<br> каминов,</span> чем избавляем от сомнений и неверного выбора</p>
+						
+				</div>
+			</div>
+		</div>
+		<div class="main__right">
+		<div class="wrapcontent">
         
-   <form action="msg.php" method="POST" id="formaR">
-       <h4>Укажите ваш номер телефона,</h4>
-       <p id='firsttext'>чтобы вызвать инженера к Вам на объект<br> и получить рассчет монтажа</p>
-       
-            <p id="btn"> <span>это бесплатно</span></p>
-            <p id="spanCMCtext" >Требуется смс подтверждение номера</p>
-       
-            <input type="text" name="sab" placeholder="  Введите ваш номер телефона">
-                <label id="btnicon" >  <input type="submit" id="btns" name="ok" value ="ОФОРМИТЬ ЗАЯВКУ"></label>
-          
-            
-            
-                <input type="checkbox"   required id="checkbox">
-                    <label class="label__checkbox" for="checkbox"><span id="date">Согласен на обработку <span>персональных  данных</span></span></label>
-        <div class="modalG">
-            <div class="modalG__left">
-                <img src="./img/surprise.png" alt="">
-                <p class="modalG__left_p"><span class="modalG__left_p_span">Осталось 5 вопросов</span> <br>
-                    до подбора оборудования <br>
-                    по параметрам <br>
-                    вашего помещения <br>
-                   <span class="modalG__left_p_span">и гарантированного бонуса</span> </p>
-            </div>
-            <div class="modalG__right">
-                                                <div class="modalG__right_one" >
-                                                    <h5>Тип отапливаемого помещения?</h5>
-                                                    <div class=".modalG__right_one_div">
-                                                        <h6 id="modalG__right_one_div_h6">Готово: 0%</h6>
-                                                        <div class="main"><div class="wrap">
-                                                        <div ><span id="first" ></span></div>
-                                                        <div><span></span></div>
-                                                        <div><span></span></div>
-                                                        <div><span></span></div>
-                                                        <div id="r"><span></span></div>
-                                                        
-                                                    </div></div></div>
-                                                </div>
-                                                <div class="main_block">
-                                                                                        <!-- 1 -->
-                                                                                                        <div class="first_survey"> 
-                                                                                                            <div class="modal">
-                                                                                                                            <label class="modal__box" alt="1">
-
-                                                                                                                                            <input type="radio" name="firstsurvey" value="Жилой дом" >
-                                                                                                                                            <p class="modal__box_p">Жилой дом</p>
-
-                                                                                                                            </label>
-                                                                                                                            <label class="modal__box"  alt="2">
-
-                                                                                                                                            <input type="radio" name="firstsurvey" value="Баня" >
-                                                                                                                                            <p class="modal__box_p">Баня</p>
-                                                                                                                                            
-                                                                                                                            </label>
-                                                                                                                        
-                                                                                                                            <label class="modal__box"  alt="3">
-                                                                                                                                            <input type="radio" name="firstsurvey" value="Нежилое помещение">
-                                                                                                                                            <p class="modal__box_p">Нежилое помещение</p>
-                                                                                                                            </label>
-                                                                                                                        </div>
-                                                                                                                    </div> 
-                                                                                                    <!-- 1 -->
-                                                                                                    <!-- 2 -->
-                                                                                                        <div class="second_survey"> 
-                                                                                                                <div class="modal2">
-                                                                                                                                <label class="modal2__box" alt="1">
-
-                                                                                                                                                <input type="radio" name="secondsurvey" value="Сезонное" >
-                                                                                                                                                <p class="modal__box_p">Сезонное</p>
-
-                                                                                                                                </label>
-                                                                                                                                <label class="modal2__box"  alt="2">
-
-                                                                                                                                                <input type="radio" name="secondsurvey" value="Круглогодичное" >
-                                                                                                                                                <p class="modal__box_p">Круглогодичное</p>
-
-                                                                                                                                </label>
-                                                                                                                            
-                                                                                                                            
-                                                                                                                            </div>
-                                                                                                                        
-                                                                                                    
-                                                                                                                    </div>
-                                                                                                            <!-- 2 -->  
-                                                                                                        <div class="third_survey">
-
-                                                                                                    
-                                                                                                        <div class="modal3">
-                                                                                                            <label class="modal3__box" alt="1">
-
-                                                                                                                            <input type="radio" name="Square" value="fifty" >
-                                                                                                                            <p class="modal3__box_p"> До 50м<sup>2</sup></p>
-
-                                                                                                            </label>
-                                                                                                            <label class="modal3__box"  alt="2">
-
-                                                                                                                            <input type="radio" name="Square" value="one_hundred" >
-                                                                                                                            <p class="modal3__box_p">До 100м<sup>2</sup></p>
-
-                                                                                                            </label>
-                                                                                                            <label class="modal3__box"  alt="3">
-
-                                                                                                                            <input type="radio" name="Square" value="one_hundred+" >
-                                                                                                                            <p class="modal3__box_p">более 100м <sup>2</sup></p>
-
-                                                                                                                </label>
-                                    
-                                                                                                        
-                                                                                                        
-                                                                                                                </div>
-                                                                                                        </div>
-                                                                                                        <div class="fourth_survey"> 
-                                                                                                        <div class="modal4">
-                                                                                                            <label class="modal4__box" alt="1">
-
-                                                                                                                            <input type="radio" name="budget" value="До 20 000 рублей" >
-                                                                                                                            <p class="modal3__box_p"> До 20 000 рублей</p>
-
-                                                                                                            </label>
-                                                                                                            <label class="modal4__box"  alt="2">
-
-                                                                                                                            <input type="radio" name="budget" value="20 000 - 50 000 рублей" >
-                                                                                                                            <p class="modal3__box_p">20 000 - 50 000 рублей</p>
-
-                                                                                                            </label>
-                                                                                                            <label class="modal4__box "  alt="3">
-
-                                                                                                                            <input type="radio" name="budget" value="50 000 - 70 000 рублей" >
-                                                                                                                            <p class="modal3__box_p">50 000 - 70 000 рублей </p>
-
-                                                                                                                </label>
-                                                                                                                <label class="modal4__box"  alt="4">
-
-                                                                                                                    <input type="radio" name="budget" value="Более 70 000 рублей" >
-                                                                                                                    <p class="modal3__box_p">Более 70 000 рублей</p>
-
-                                                                                                        </label>
-                                                                                                        
-                                                                                                        <label class="modal4__box"  alt="5">
-
-                                                                                                            <input type="radio" name="budget" value="Затрудняюсь ответить" >
-                                                                                                            <p class="modal3__box_p">Затрудняюсь ответить </p>
-
-                                                                                                    </label>
-                                                                                                    <div class="money"></div>
-                                    
-                                                                                                        
-                                                                                                        
-                                                                                                                </div>
-                                                                                                        </div>
-                                                                                            <!-- 4 -->
-                                                                                                    <div class="fifth_survey"> 
-                                                                                                        <div class="modal4">
-                                                                                                        <label class="modal4__box" alt="1">
-            
-                                                                                                                        <input type="radio" name="clock " value="С 09:00 до 12:00" >
-                                                                                                                        <p class="modal3__box_p"> С 09:00 до 12:00</p>
-            
-                                                                                                        </label>
-                                                                                                        <label class="modal4__box "  alt="3">
-            
-                                                                                                                        <input type="radio" name="clock " value="С 14:00 до 16:00" >
-                                                                                                                        <p class="modal3__box_p">С 14:00 до 16:00 </p>
-            
-                                                                                                                </label>
-                                                                                                        <label class="modal4__box"  alt="2">
-            
-                                                                                                                        <input type="radio" name="clock " value="С 12:00 до 14:00" >
-                                                                                                                        <p class="modal3__box_p">С 12:00 до 14:00</p>
-            
-                                                                                                        </label>
-                                                                                                        
-                                                                                                            <label class="modal4__box"  alt="4">
-            
-                                                                                                                <input type="radio" name="clock " value="С 16:00 до 18:00" >
-                                                                                                                <p class="modal3__box_p">С 16:00 до 18:00</p>
-            
-                                                                                                    </label>
-                                                                                                    
-                                                                                                    
-                                                                                                    <div class="money clock "></div>
-                                    
-                                                                                                    
-                                                                                                    
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        
-                                                 </div>
-                                                <div class="buttons">
-                                                    <div class="Na modal__button backward"> Назад</div>
-                                                    <div class="modal__button active"> Далее -></div>
-                                                    
-                                                </div>
-                                                <div class="data"> 
-                                                   <div class="data__text">
-                                                       <h4>Оставьте свои контактные данные</h4>
-                                                       <p>Мы подберем для Вас 3 варианта наиболее<br>
-                                                            подходящего отопительного оборудования, а также <br>
-                                                            сориентируем по способам и сложности его монтажа</p>
-                                                   </div>
-                                                   <div class="data__sending_form">
-                                                       <div class="data__sending_form_one">
-                                                           <input class="searClass" type="text" name="nameform" placeholder="Введите имя"><br>
-                                                           <input class="searClass" type="text" name="tellefon" placeholder="Введите телефон"><br>
-                                                           <input class="btnCnop Caps" type="submit" value="Отправить данные"><br>
-                                                           <p id="confidentiality">с <span>политикой конфиденциальности</span><br> ознакомлен(а)</p>
-                                                       </div>
-                                                       <div class="data__img"></div>
-                                                   </div>
-                                                
-                                                
-                                                        </div>
-                                                    </div>
-        </div>
-        
-        <!-- конец модального -->
-        </div>
-             <a href="index.php"> click!</a>  
-   </form></div>
-  <script src="script.js"></script>
+		<form action="msg.php" method="POST" id="formaR">
+			<h4>Укажите ваш номер телефона,</h4>
+			<p id='firsttext'>чтобы вызвать инженера к Вам на объект<br> и получить рассчет монтажа</p>
+			
+				 <p id="btn"> <span>это бесплатно</span></p>
+				 <p id="spanCMCtext" >Требуется смс подтверждение номера</p>
+			
+				 <input type="text" name="sab" placeholder="  Введите ваш номер телефона">
+					 <label id="btnicon" >  <input type="submit" id="btns" name="ok" value ="ОФОРМИТЬ ЗАЯВКУ"></label>
+			   
+				 
+				 
+					 <input type="checkbox"   required id="checkbox">
+						 <label class="label__checkbox" for="checkbox"><span id="date">Согласен на обработку <span>персональных  данных</span></span></label>
+			 <div class="modalG">
+				 <div class="modalG__left">
+					 <img src="./img/surprise.png" alt="">
+					 <p class="modalG__left_p"><span class="modalG__left_p_span">Осталось 5 вопросов</span> <br>
+						 до подбора оборудования <br>
+						 по параметрам <br>
+						 вашего помещения <br>
+						<span class="modalG__left_p_span">и гарантированного бонуса</span> </p>
+				 </div>
+				 <div class="modalG__right">
+													 <div class="modalG__right_one" >
+														 <h5>Тип отапливаемого помещения?</h5>
+														 <div class=".modalG__right_one_div">
+															 <h6 id="modalG__right_one_div_h6">Готово: 0%</h6>
+															 <div class="main"><div class="wrap">
+															 <div ><span id="first" ></span></div>
+															 <div><span></span></div>
+															 <div><span></span></div>
+															 <div><span></span></div>
+															 <div id="r"><span></span></div>
+															 
+														 </div></div></div>
+													 </div>
+													 <div class="main_block">
+																							 <!-- 1 -->
+																											 <div class="first_survey"> 
+																												 <div class="modal">
+																																 <label class="modal__box" alt="1">
+	 
+																																				 <input type="radio" name="firstsurvey" value="Жилой дом" >
+																																				 <p class="modal__box_p">Жилой дом</p>
+	 
+																																 </label>
+																																 <label class="modal__box"  alt="2">
+	 
+																																				 <input type="radio" name="firstsurvey" value="Баня" >
+																																				 <p class="modal__box_p">Баня</p>
+																																				 
+																																 </label>
+																															 
+																																 <label class="modal__box"  alt="3">
+																																				 <input type="radio" name="firstsurvey" value="Нежилое помещение">
+																																				 <p class="modal__box_p">Нежилое помещение</p>
+																																 </label>
+																															 </div>
+																														 </div> 
+																										 <!-- 1 -->
+																										 <!-- 2 -->
+																											 <div class="second_survey"> 
+																													 <div class="modal2">
+																																	 <label class="modal2__box" alt="1">
+	 
+																																					 <input type="radio" name="secondsurvey" value="Сезонное" >
+																																					 <p class="modal__box_p">Сезонное</p>
+	 
+																																	 </label>
+																																	 <label class="modal2__box"  alt="2">
+	 
+																																					 <input type="radio" name="secondsurvey" value="Круглогодичное" >
+																																					 <p class="modal__box_p">Круглогодичное</p>
+	 
+																																	 </label>
+																																 
+																																 
+																																 </div>
+																															 
+																										 
+																														 </div>
+																												 <!-- 2 -->  
+																											 <div class="third_survey">
+	 
+																										 
+																											 <div class="modal3">
+																												 <label class="modal3__box" alt="1">
+	 
+																																 <input type="radio" name="Square" value="fifty" >
+																																 <p class="modal3__box_p"> До 50м<sup>2</sup></p>
+	 
+																												 </label>
+																												 <label class="modal3__box"  alt="2">
+	 
+																																 <input type="radio" name="Square" value="one_hundred" >
+																																 <p class="modal3__box_p">До 100м<sup>2</sup></p>
+	 
+																												 </label>
+																												 <label class="modal3__box"  alt="3">
+	 
+																																 <input type="radio" name="Square" value="one_hundred+" >
+																																 <p class="modal3__box_p">более 100м <sup>2</sup></p>
+	 
+																													 </label>
+										 
+																											 
+																											 
+																													 </div>
+																											 </div>
+																											 <div class="fourth_survey"> 
+																											 <div class="modal4">
+																												 <label class="modal4__box" alt="1">
+	 
+																																 <input type="radio" name="budget" value="До 20 000 рублей" >
+																																 <p class="modal3__box_p"> До 20 000 рублей</p>
+	 
+																												 </label>
+																												 <label class="modal4__box"  alt="2">
+	 
+																																 <input type="radio" name="budget" value="20 000 - 50 000 рублей" >
+																																 <p class="modal3__box_p">20 000 - 50 000 рублей</p>
+	 
+																												 </label>
+																												 <label class="modal4__box "  alt="3">
+	 
+																																 <input type="radio" name="budget" value="50 000 - 70 000 рублей" >
+																																 <p class="modal3__box_p">50 000 - 70 000 рублей </p>
+	 
+																													 </label>
+																													 <label class="modal4__box"  alt="4">
+	 
+																														 <input type="radio" name="budget" value="Более 70 000 рублей" >
+																														 <p class="modal3__box_p">Более 70 000 рублей</p>
+	 
+																											 </label>
+																											 
+																											 <label class="modal4__box"  alt="5">
+	 
+																												 <input type="radio" name="budget" value="Затрудняюсь ответить" >
+																												 <p class="modal3__box_p">Затрудняюсь ответить </p>
+	 
+																										 </label>
+																										 <div class="money"></div>
+										 
+																											 
+																											 
+																													 </div>
+																											 </div>
+																								 <!-- 4 -->
+																										 <div class="fifth_survey"> 
+																											 <div class="modal4">
+																											 <label class="modal4__box" alt="1">
+				 
+																															 <input type="radio" name="clock " value="С 09:00 до 12:00" >
+																															 <p class="modal3__box_p"> С 09:00 до 12:00</p>
+				 
+																											 </label>
+																											 <label class="modal4__box "  alt="3">
+				 
+																															 <input type="radio" name="clock " value="С 14:00 до 16:00" >
+																															 <p class="modal3__box_p">С 14:00 до 16:00 </p>
+				 
+																													 </label>
+																											 <label class="modal4__box"  alt="2">
+				 
+																															 <input type="radio" name="clock " value="С 12:00 до 14:00" >
+																															 <p class="modal3__box_p">С 12:00 до 14:00</p>
+				 
+																											 </label>
+																											 
+																												 <label class="modal4__box"  alt="4">
+				 
+																													 <input type="radio" name="clock " value="С 16:00 до 18:00" >
+																													 <p class="modal3__box_p">С 16:00 до 18:00</p>
+				 
+																										 </label>
+																										 
+																										 
+																										 <div class="money clock "></div>
+										 
+																										 
+																										 
+																												 </div>
+																											 </div>
+																											 
+													  </div>
+													 <div class="buttons">
+														 <div class="Na modal__button backward"> Назад</div>
+														 <div class="modal__button active"> Далее -></div>
+														 
+													 </div>
+													 <div class="data"> 
+														<div class="data__text">
+															<h4>Оставьте свои контактные данные</h4>
+															<p>Мы подберем для Вас 3 варианта наиболее<br>
+																 подходящего отопительного оборудования, а также <br>
+																 сориентируем по способам и сложности его монтажа</p>
+														</div>
+														<div class="data__sending_form">
+															<div class="data__sending_form_one">
+																<input class="searClass" type="text" name="nameform" placeholder="Введите имя"><br>
+																<input class="searClass" type="text" name="tellefon" placeholder="Введите телефон"><br>
+																<input class="btnCnop Caps" type="submit" value="Отправить данные"><br>
+																<p id="confidentiality">с <span>политикой конфиденциальности</span><br> ознакомлен(а)</p>
+															</div>
+															<div class="data__img"></div>
+														</div>
+													 
+													 
+															 </div>
+														 </div>
+			 </div>
+			 
+			 <!-- конец модального -->
+			 </div>
+				  <a href="index.php"> click!</a>  
+		</form></div>
+		</div>
+	</main>
+	</section>
+	
+	
+	<footer>
+		<div class="footer__list">
+			<div class="footer__logo"></div>
+			<p class="footer__text">Политика конфиденциальности</p>
+			<p class="footer__number">+7(911) 221-71-91</p>
+			<div class="footer__about"><span id="tetxfoo">Разработано агентством</span>:<img src="img/Безимени-4.png"></div> 
+		</div>
+	</footer>
+	<script src="script.js"></script>
 </body>
-</html>
