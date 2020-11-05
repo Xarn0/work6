@@ -189,7 +189,7 @@ input[name="ok"]{
                                 z-index: 6;
 }
 #btnicon::before{
-                                content: url(./img/1.png);
+                                content: url(img/1.png);
                                 position: absolute;
                                 right: 40px;
                                 bottom: -30px;
@@ -272,7 +272,7 @@ input[type="checkbox"]{
                                 vertical-align: middle;
 }
 #checkbox:checked + .label__checkbox::before{
-                                content: url(./img/chek.png);
+                                content: url(img/chek.png);
                                 text-align: center;
 }
 
@@ -299,7 +299,7 @@ input[type="checkbox"]{
                                 height: 751px;
                                 float: left;
                                 z-index: 7;
-                                background-image: url(./src/Без-имени-2.png);
+                                background-image: url(src/Без-имени-2.png);
                                 background-position: -3px 0px;
                                 background-repeat: no-repeat;
                                 overflow: hidden;
@@ -483,11 +483,11 @@ input[type="checkbox"]{
                                 background-repeat: no-repeat;
 }
 .modal__box:nth-child(2){
-                                background-image: url("./img/БАНЯ.png");
+                                background-image: url("img/БАНЯ.png");
                                 border-radius: 10px;
 }
 .modal__box:nth-child(3){
-                                 background-image: url("./img/НЖ.png");
+                                 background-image: url("img/НЖ.png");
                                 border-radius: 10px;
                                 background-repeat: no-repeat;
 }
@@ -496,12 +496,12 @@ input[type="checkbox"]{
     justify-content: center;
 }
 .modal2__box:nth-child(1){
-                                background-image: url("./img/21.png");
+                                background-image: url("img/21.png");
                                 background-repeat: no-repeat;
                                 border-radius: 10px;
 }
 .modal2__box:nth-child(2){
-                                background-image: url("./img/22.png");
+                                background-image: url("img/22.png");
                                 background-repeat: no-repeat;
                                 border-radius: 10px;
 }
@@ -639,7 +639,7 @@ input[name="budget"]:checked + .modal3__box_p::before {
 .money{
                                 width: 279px;
                                 height: 261px;
-                                background-image: url(./img/money.png);
+                                background-image: url(img/money.png);
                                 background-repeat: no-repeat;
                                 position: absolute;
                                 z-index: -1;
@@ -649,7 +649,7 @@ input[name="budget"]:checked + .modal3__box_p::before {
                             }
 
 .clock{
-                                background-image: url(./img/clock.png);
+                                background-image: url(img/clock.png);
                                 background-repeat: no-repeat;
                                 bottom: 6px;
                                 right: 204px;
@@ -684,7 +684,7 @@ input[name="secondsurvey"]{
     overflow: hidden;
 }
 .data__img{
-    background-image: url(./src/fireplace.png);
+    background-image: url(src/fireplace.png);
     background-repeat: no-repeat;
     height: 450px;
     width: 460px;
@@ -713,7 +713,7 @@ input[name="secondsurvey"]{
     margin: 0 0 0 22px;
 }
 #confidentiality::before{
-    content: url(./img/tick.png);
+    content: url(img/tick.png);
     margin: 0px 9px 0px -27px;
     display: inline-block;
     vertical-align: middle;
