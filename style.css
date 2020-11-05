@@ -299,7 +299,7 @@ input[type="checkbox"]{
                                 height: 751px;
                                 float: left;
                                 z-index: 7;
-                                background-image: url(./SRC/Без-имени-2.png);
+                                background-image: url(./src/Без-имени-2.png);
                                 background-position: -3px 0px;
                                 background-repeat: no-repeat;
                                 overflow: hidden;
@@ -478,7 +478,7 @@ input[type="checkbox"]{
 /* } */
 
 .modal__box:first-child{
-                                 background-image: url("./img/11.png") ;
+                                 background-image: url("img/11.png") ;
                                 border-radius: 10px;
                                 background-repeat: no-repeat;
 }
@@ -684,7 +684,7 @@ input[name="secondsurvey"]{
     overflow: hidden;
 }
 .data__img{
-    background-image: url(./SRC/fireplace.png);
+    background-image: url(./src/fireplace.png);
     background-repeat: no-repeat;
     height: 450px;
     width: 460px;
